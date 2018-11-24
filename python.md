@@ -172,10 +172,10 @@ Python поддерживает следующие операции:
 ```python
 if expression:
     statements
-else:
+elif expression:
     statements
 ...
-elif expression:
+else:
     statements
 ```
 
