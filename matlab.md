@@ -235,6 +235,7 @@ function [out1,out2, ..., outN] = myfun(in1,in2,in3, ..., inN)
     statements
 end
 ```
+Для создания ссылки на функцию используется оператор `@`: `f = @function_name;`
 
 ## Функции построения графиков
 
