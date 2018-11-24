@@ -356,18 +356,6 @@ integrate.odeint(f, Y0, t)
 
 Решение системы ДУ первого порядка
 
-$$
-\begin{cases}
-  \frac{dN}{dt}=(a-cM) N,
-  \\
-  \frac{dM}{dt}=(-b+dN) M
-  \\
-  N_0 = 1,
-  \\
-  M_0 = 2
-\end{cases}
-$$
-
 ```python
 def f(y, t):
     alfa = 0.8; beta = 0.3; c = 0.5; d = 0.2
