@@ -9,8 +9,8 @@
 
 ```python
 import numpy as np #библиотека для математических вычислений и работы с массивами
-import matplotlib.pyplot as plt #matlab-like библиотека для рисования графиков
 from scipy import integrate #библиотека для научных вычислений
+import matplotlib.pyplot as plt #matlab-like библиотека для рисования графиков
 from mpl_toolkits import mplot3d
 ```
 
